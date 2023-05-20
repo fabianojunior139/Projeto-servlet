@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/loja.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/cadastrar.css">
+    <title>Cadastro de Produtos</title>
+</head>
+
+<body>
+
+<div class="container">
+    <form action="inserir" method="post" class="card">
+        <h1 class="cadastroProduto-titulo">Cadastro de produto</h1>
+
+        <label for="codigo" class="formulario-label">Código do produto</label>
+        <input type="text" name="codigo" id="codigo" required class="formulario-input">
+
+        <label for="nomeProduto" class="formulario-label">Nome do produto</label>
+        <input type="text" name="nomeProduto" id="nomeProduto" required class="formulario-input">
+
+        <label for="categoria" class="formulario-label">Categoria</label>
+        <input type="text" name="categoria" id="categoria" class="formulario-input">
+
+        <label for="valor" class="formulario-label">Valor</label>
+        <input type="text" name="valor" id="valor" required class="formulario-input">
+
+        <label for="quantidade" class="formulario-label">Quantidade</label>
+        <input type="text" name="quantidade" id="quantidade" required class="formulario-input">
+
+        <div class="botoes">
+            <input type="submit" name="Cadastrar" value="Cadastrar" class="botao-cadastro-produto">
+            <input type="reset" value="Resetar" class="botao-cadastro-produto">
+        </div>
+
+        <a href="home" class="retornar-home">Retornar à página principal</a>
+    </form>
+</div>
+
+</body>
+
+</html>

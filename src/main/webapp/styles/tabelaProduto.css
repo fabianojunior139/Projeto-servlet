@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+.retornar-home {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.voltar {
+    text-decoration: none;
+    color: white;
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    transition: 0.25s;
+    font-size: 1rem;
+}
+
+.voltar:hover {
+    background-color: white;
+    color: black;
+}
+
+.titulo-tabela {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.tabela {
+    width: 50rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    margin: 2rem auto;
+    text-align: center;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+.tabela tr {
+    padding: 10rem;
+    height: 3rem;
+}
+
+.tabela thead tr {
+    background-color: #b1b1b1;
+}
+
+.tabela tbody tr:hover {
+    background-color: #ddd;
+}
+
+.tabela th,
+td,
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.botao-editar {
+    padding: 0.5rem 0.75rem;
+    text-decoration: none;
+    background-color: rgb(22, 186, 118);
+    color: white;
+    border-radius: 0.25rem;
+    width: 20rem;
+}
+
+.botao-excluir {
+    padding: 0.5rem;
+    text-decoration: none;
+    background-color: rgb(238, 50, 50);
+    color: white;
+    border-radius: 0.25rem;
+}

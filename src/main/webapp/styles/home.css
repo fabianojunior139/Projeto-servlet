@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+.card {
+    width: 36rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+}
+
+.titulo-secundario {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.forms {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.botao-home {
+    width: 15rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-family: "Montserrat", sans-serif;
+    background-color: #6d81e0;
+    color: white;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.botao-home:hover {
+    background-color: #3151f0;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/loja.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/home.css">
+    <title>Home</title>
+</head>
+
+<body>
+<div class="container">
+    <div class="card">
+        <h1 class="titulo-principal">Seja bem-vindo!</h1>
+        <h2 class="titulo-secundario">Clique na operação abaixo que deseja realizar</h2>
+
+        <div class="forms">
+            <form method="GET" action="listarTodosProdutos">
+                <input type="hidden" name="extra_submit_param" value="extra_submit_value">
+                <button type="submit" name="submit_param" value="submit_value" class="botao-home">Listar Produtos
+                    Cadastrados</button>
+            </form>
+
+            <form method="POST" action="add">
+                <input type="hidden" name="extra_submit_param" value="extra_submit_value">
+                <button type="submit" name="submit_param" value="submit_value" class="botao-home">Cadastrar Produto</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
